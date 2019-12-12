@@ -8,9 +8,9 @@ import org.springframework.context.annotation.Configuration;
 @ConfigurationProperties(prefix = "totalvoice")
 public class TotalVoiceProperties {
 
-    private String token;
+    private String token = "8559645222e455665cc6986ed38de770";
 
-    private String endpoint;
+    private String endpoint = "https://api.totalvoice.com.br";
 
     public String getToken() {
         return token;

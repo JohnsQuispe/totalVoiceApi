@@ -11,7 +11,6 @@ public class Turma {
 
     private String nomeTurma;
 
-    @ManyToOne
     private Long escolaId;
 
     public Long getTurmaId() {

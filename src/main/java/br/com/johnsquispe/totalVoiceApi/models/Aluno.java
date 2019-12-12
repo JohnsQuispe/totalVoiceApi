@@ -15,10 +15,10 @@ public class Aluno {
     private boolean ocupado;
     private Long tempoUso;
 
-    @ManyToOne
+
     private Long turmaId;
 
-    @ManyToOne
+
     private Long usuarioId;
 
     public Long getAlunoId() {
