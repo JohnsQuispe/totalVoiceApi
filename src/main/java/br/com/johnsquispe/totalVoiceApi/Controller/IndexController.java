@@ -26,7 +26,7 @@ public class IndexController {
     @PostMapping("/chamada")
     public String chamar() throws Exception {
         ChamadaApi chamada = new ChamadaApi();
-        return chamada.realizaChamadaEntreDoisNumeros("11987906887","11987906887");
+        return chamada.realizaChamadaEntreDoisNumeros("","");
     }
 
 }

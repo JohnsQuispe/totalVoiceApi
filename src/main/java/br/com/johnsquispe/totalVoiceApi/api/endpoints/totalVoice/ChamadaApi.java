@@ -26,10 +26,10 @@ public class ChamadaApi {
 
         //Token recolocada para assegurar funcionalidade da aplicação
 
-        TotalVoiceClient client = new TotalVoiceClient("672e3ef3f866e87dc781065a54722482");
+        TotalVoiceClient client = new TotalVoiceClient("");
         Chamada chamada = new Chamada(client);
 
-        JSONObject result = chamada.ligar("987906887", "987906887");
+        JSONObject result = chamada.ligar("", "");
         System.out.println(result);
         return JSONObject.valueToString(result);
 
